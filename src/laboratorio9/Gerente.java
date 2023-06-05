@@ -27,7 +27,7 @@ public class Gerente extends Funcionario {
 
     @Override
     public void calculaBonificao() {
-        super.setSalario(super.getSalario()+(super.getSalario/10) )+ 500);
+        super.setSalario(super.getSalario()+(super.getSalario()/10) )+ 500);
     }
 
     @Override
